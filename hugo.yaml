@@ -22,7 +22,7 @@ params:
       url: ""
 
     - name: "Patreon"
-      url: ""
+      url: "https://patreon.com"
 
     - name: "StackOverflow"
       url: ""
