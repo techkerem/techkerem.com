@@ -1,0 +1,34 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Kerem
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: My name is Kerem and this is my blog.
+
+  socialIcons: # optional
+    - name: "Youtube"
+      url: "https://www.youtube.com/@techkerem"
+
+    - name: "Instagram"
+      url: ""
+
+    - name: "Discord"
+      url: ""
+
+    - name: "Github"
+      url: ""
+
+    - name: "Patreon"
+      url: ""
+
+    - name: "StackOverflow"
+      url: ""
+
+    - name: "Reddit"
+      url: ""
+      
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/techkerem/"
