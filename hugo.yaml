@@ -1,14 +1,46 @@
-baseURL: 
+baseURL: "https://techkerem.com/"
 languageCode: en-us
 title: Kerem
 theme: ["PaperMod"]
 
+menu:
+  main:
+
+    - name: About
+      url: /
+      weight: 1
+
+    - name: Archive
+      url: /posts
+      weight: 5
+
+    - name: Projects
+      url: /
+      weight: 10
+
+    - name: Contact
+      url: /
+      weight: 20
+
+    - name: Patreon
+      url: https://patreon.com/techkerem
+
 params:
+
   homeInfoParams:
     Title: Hi there 👋
-    Content: My name is Kerem and this is my blog.
+    Content: 
 
-  socialIcons: # optional
+      I'm Kerem and I create fun, unreasonable but still somewhat educational content.
+
+      - If you are into my content, you can find more and support me trough [My Patreon!](https://patreon.com/techkerem)
+
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+
+  socialIcons:
     - name: "Youtube"
       url: "https://www.youtube.com/@techkerem"
 
@@ -19,16 +51,24 @@ params:
       url: ""
 
     - name: "Github"
-      url: ""
+      url: "https://github.com/techkerem"
 
     - name: "Patreon"
       url: "https://patreon.com"
 
     - name: "StackOverflow"
-      url: ""
+      url: "https://stackoverflow.com/users/23342232/kerem?tab=profile"
 
     - name: "Reddit"
-      url: ""
+      url: "https://www.reddit.com/user/techkerem"
       
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/techkerem/"
+
+    - name: "email"
+
+    - name: "tiktok"
+
+    - name: "facebook"
+
+    - name: "x"
